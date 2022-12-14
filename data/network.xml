@@ -4,17 +4,21 @@
          xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
 
   <!-- property keys -->
-  <key id="key0" for="node" attr.name="_pos" attr.type="vector_float" />
+  <!-- <key id="key0" for="node" attr.name="_pos" attr.type="vector_float" /> -->
+  <key id="key0" for="node" attr.name="_pos" attr.type="string" />
   <key id="key1" for="graph" attr.name="citation" attr.type="string" />
   <key id="key2" for="graph" attr.name="description" attr.type="string" />
-  <key id="key3" for="edge" attr.name="layer" attr.type="short" />
-  <key id="key4" for="graph" attr.name="layer_key" attr.type="python_object" />
+  <!-- <key id="key3" for="edge" attr.name="layer" attr.type="short" /> -->
+  <key id="key3" for="edge" attr.name="layer" attr.type="int" />
+  <!-- <key id="key4" for="graph" attr.name="layer_key" attr.type="python_object" /> -->
+  <key id="key4" for="graph" attr.name="layer_key" attr.type="string" />
   <key id="key5" for="node" attr.name="name" attr.type="string" />
   <key id="key6" for="graph" attr.name="name" attr.type="string" />
   <key id="key7" for="node" attr.name="nodeLabel" attr.type="string" />
   <key id="key8" for="node" attr.name="nodeLat" attr.type="float" />
   <key id="key9" for="node" attr.name="nodeLong" attr.type="float" />
-  <key id="key10" for="graph" attr.name="tags" attr.type="vector_string" />
+  <!-- <key id="key10" for="graph" attr.name="tags" attr.type="vector_string" /> -->
+  <key id="key10" for="graph" attr.name="tags" attr.type="string" />
   <key id="key11" for="graph" attr.name="url" attr.type="string" />
   <key id="key12" for="edge" attr.name="weight" attr.type="boolean" />
 
